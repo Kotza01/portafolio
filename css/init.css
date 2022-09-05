@@ -469,7 +469,7 @@ body{
     width: 0;
     height: 1.5rem;
 
-    background-image: url("/assets/arrow_right.png");
+    background-image: url("../assets/arrow_right.png");
     background-size: cover;
     
     transform: translate(30%, 18%);
@@ -734,7 +734,7 @@ form .error ul li{
     width: 100%;
     height: auto;
     
-    background-image: url("/assets/background-3.jpg");
+    background-image: url("../assets/background-3.jpg");
     background-size: cover;
    
 }
