@@ -753,7 +753,14 @@ p {
 
 /*responsive*/
 
-@media screen and (min-width: 34.125em) {
+@media screen and (max-width: 33em) {
+    form{
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+@media screen and (min-width: 34.125em) {    
     form label[for=message] {
         transform: translate(1rem, -1134%);
     }
